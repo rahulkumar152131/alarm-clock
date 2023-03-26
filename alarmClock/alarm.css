@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#clock-container{
+  min-width: 290px;
+  max-width: 400px;
+  min-height: 60vh;
+  width: 40%;
+  background-image: linear-gradient(  rgb(3, 34, 50), rgb(19, 26, 72));
+  border: 3px solid rgb(220, 207, 207);
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0px 0px 10px 10px black;
+  
+}
+
+h1 {
+  text-align: center;
+  
+ 
+}
+
+#clock {
+  margin-top: 50px;
+  font-size: 2rem;
+  color: rgb(179, 173, 227);
+  
+}
+
+#alarm-form {
+  
+  margin-bottom: 20px;
+}
+
+
+#alarm-form input[type="number"]{
+  color: aliceblue;
+  margin-top: 1rem;
+  width: 30px;
+  background-color: rgb(168, 106, 226);
+  border: none;
+}
+
+
+
+#alarm-ampm{
+  color: rgb(233, 206, 206);
+  background-image: linear-gradient(135deg, green, red);
+}
+
+#set-alarm {
+  color: rgb(179, 242, 210);
+  margin-left: 10px;
+  background-color: rgb(83, 109, 225);
+ 
+}
+
+
+#clock-container #alarm-list {
+   overflow: hidden;
+  
+
+  
+}
+
+#alarm-list div {
+  margin-bottom: 15px;
+  color: aliceblue;
+}
+
+
+
+#alarm-list div button {
+  background-image: linear-gradient(rgb(78, 196, 228), rgb(119, 119, 6)) ;
+  margin-left: 20px;
+  color: aliceblue;
+}
